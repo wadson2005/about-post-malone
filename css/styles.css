@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+nav {
+    background-color: #f1f1f1;
+    padding: 15px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.image-center {
+    display: block;
+    margin: 0 auto;
+}
+
+article {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.comment-section,
+
+.share-buttons {
+    display: flex;
+    flex-direction: row; /* Adicione essa linha para alinhar horizontalmente os botões e as imagens */
+    flex-wrap: wrap; /* Adicione essa linha para quebrar para a próxima linha se o espaço for insuficiente */
+}
+
+.share-buttons button {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.share-buttons img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+
+.search-bar {
+    margin-bottom: 20px;
+}
