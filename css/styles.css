@@ -41,8 +41,8 @@ footer {
 
 .share-buttons {
     display: flex;
-    flex-direction: row; /* Adicione essa linha para alinhar horizontalmente os botões e as imagens */
-    flex-wrap: wrap; /* Adicione essa linha para quebrar para a próxima linha se o espaço for insuficiente */
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .share-buttons button {
